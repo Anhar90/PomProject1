@@ -1,0 +1,19 @@
+<suite name="suite1">
+    <test name="Reg1">
+
+        <groups>
+            <define name="define1">
+                <include name="Android"></include>
+            </define>
+
+            <run name="Android"></run>
+        </groups>
+
+        <classes>
+            <class name="Pages22.Point">
+            </class>
+        </classes>
+
+
+    </test>
+</suite>
