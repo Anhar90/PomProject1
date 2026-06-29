@@ -44,9 +44,9 @@ public class GoToSignIn {
     {
        // driver.navigate().to("")
         logCred.userEle(driver).clear();
-        logCred.userEle(driver).sendKeys("Anhar123");
+        logCred.userEle(driver).sendKeys("");
         logCred.passEle(driver).clear();
-        logCred.passEle(driver).sendKeys("Dhvflud558");
+        logCred.passEle(driver).sendKeys("");
         logCred.clickEle(driver).click();
     }
 
