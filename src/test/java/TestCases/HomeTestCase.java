@@ -9,7 +9,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 public class HomeTestCase {
 
     public static WebDriver driver;
@@ -20,7 +19,7 @@ public class HomeTestCase {
     @BeforeTest
     public void openDriver()
     {
-        System.setProperty("webdriver.gecko.driver","D:\\AnharFiles\\Sales invoice\\IdeaProjects\\oneProject\\firefoxdriver\\geckodriver.exe");
+        
         // System.getProperty("webdriver.chrome.driver","D:\\AnharFiles\\chrome\\chromedriver.exe");
         driver=new FirefoxDriver();
         WebDriverWait myWait;

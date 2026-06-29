@@ -17,6 +17,7 @@ public class logOutLink {
 
     By menuItem=By.id("vector-user-links-dropdown-checkbox");
 
+
     //Method to view menu
     public  void clickMenuItems(WebDriver dd)
     {
